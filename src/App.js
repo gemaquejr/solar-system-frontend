@@ -8,7 +8,7 @@ class App extends React.Component {
       <>
         <p>Sistema Solar</p>
         <Header />
-        <div data-testid="solar-system" />
+        <SolarSystem />
       </>
     );
   }
