@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <Header>
-        <p>Sistema Solar</p>
-      </Header>
+      <header>
+        <h1>Sistema Solar</h1>
+      </header>
     );
   }
 }
