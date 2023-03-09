@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import Title from './Title';
-import PlanetCard from './PlanetCard';
-import planets from '../data/planets';
 
-class SolarSystem extends Component {
+import React from 'react';
+import Title from './title';
+import planets from '../data/planets';
+import PlanetCard from './planetCard';
+
+class SolarSystem extends React.Component {
   render() {
     return (
       <>
-        <div data-testid="solar-system" />
+        <div className="solar-system" data-testid="solar-system" />
         <Title headline="Planetas" />
         {planets.map((planet) => (
           <PlanetCard
@@ -20,4 +21,5 @@ class SolarSystem extends Component {
     );
   }
 }
+
 export default SolarSystem;
