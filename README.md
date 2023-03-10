@@ -22,7 +22,7 @@ Essa aplicação simulará uma visualização do **Sistema Solar**, bem como inf
 
 - [React](https://reactjs.org/): Biblioteca JavaScript para criar interfaces de usuário
 
-## :hammer_and_wrench: Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
+## :hammer_and_wrench: Antes de iniciar o projeto.
 
 No diretório do projeto, instale as dependências e inicialize o projeto:
 
